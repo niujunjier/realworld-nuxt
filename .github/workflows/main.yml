@@ -53,7 +53,7 @@ jobs:
         password: JUNjie!12
         port: 22
         script: |
-          cd /root/realworld-nuxtjs
+          cd /root/realworld-nuxt
           wget https://github.com/niujunjier/realworld-nuxt/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
           npm install --production
