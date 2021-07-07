@@ -43,7 +43,7 @@ export default {
         "~/plugins/day.js",
     ],
     server: {
-        // host: "0.0.0.0",
-        // port: "8088"
+        host: "0.0.0.0",
+        port: "8088"
     }
 }
