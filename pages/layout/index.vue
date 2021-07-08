@@ -5,7 +5,7 @@
         <nuxt-link class="navbar-brand" to="/">conduit</nuxt-link>
         <ul class="nav navbar-nav pull-xs-right">
           <li class="nav-item">
-            <nuxt-link class="nav-link" exact to="/">首页</nuxt-link>
+            <nuxt-link class="nav-link" exact to="/">Home</nuxt-link>
           </li>
           <template v-if="user">
             <li class="nav-item">

@@ -48,10 +48,10 @@ jobs:
     - name: Deploy
       uses: appleboy/ssh-action@master
       with:
-        host: 81.69.18.18
-        username: root
-        password: JUNjie!12
-        port: 22
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
         script: |
           cd /root/realworld-nuxt
           wget https://github.com/niujunjier/realworld-nuxt/releases/latest/download/release.tgz -O release.tgz
